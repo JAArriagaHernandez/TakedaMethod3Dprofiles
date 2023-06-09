@@ -1,3 +1,5 @@
+Instrucciones en Ingles
+
 Unfortunately, this platform (https://github.com/) does not allow uploading very large or heavy files larger than 25mb, 
 the same as Optica on its platform and likewise its Journals as Applied Opics. Therefore, the other files mentioned in
 the manuscript entitled "Tomography Fourier analysis for the construction of a 3D solid model for SARS-CoV-2 viral particles" 
@@ -44,24 +46,4 @@ tenemos acceso a los modelos 3D de las Viral Particles (VP) de SARS-CoV-2 trabaj
 
 los siguientes enlaces de los archivos mencionados:
 
-1.- HoWu_3Dmodel.mat link: https://drive.google.com/file/d/1M5LX7Jr3UiAIMbOHzR5IBOT-Q-x9RQpR/view?usp=sharing
-
-2.- Ullah_3Dmodel.mat link: https://drive.google.com/file/d/1pVUMo2qE1SbDKlK6fEISmIdODslu256P/view?usp=sharing
-
-3.- Frames link: https://drive.google.com/drive/folders/1OBWOUDH1ZaPz0YLEjntfqrOWLzhNx01o?usp=sharing
-
-El ultimo enlace (carpeta "Frames") continee multiples imagenes y archivos de matlab (*.mat) para generar otros elementos y ejecutar sin 
-problemas el codigo de "Results.m". Asi en "Frames" tenemos 4 carpetas, 2 para los archivos de Ho y 2 para Ullah. En las subcarpetas 
-40 Ho y 44 Ullah tenemos los frames (directos del video 1 y 2, respectivamente) en la carpeta frames, las mascaras binarias (carpeta Masks) 
-y los segmentados finos (carpeta SRAS_Cell). Estas son necesarias en la linea 60 (Ho y 63 en el caso de los archivos de Ullah), 
-71 (74 para Ullah), 82 (85 Ullah) para el caso de los archivos en la subcarpeta frames. Luego los archivos de la carpeta Masks son 
-necesarios para Ho en la linea 94 (97 para el caso de los archivos de Ullah). Los archivos en la carpeta SARS_Cell son los necesarios para
-correr el codigo que genera los M imagenes del dolido 3D, nuestra propuesta en Python 2DLegendre_Fit. Asi, al contar con otra plataforma 
-capaz de visualizar Solidos 3D importables, se tiene la posibilidad de obcervar nuestro resutado y no solo como lo proponemos en el manuscrito 
-con la funcion "volumeViewer" de Matlab. Finalmente, en la carpeta principal "Frames" se encuantran las ultimas dos carpetas "562 Hon Wu" y 
-"660 Ullah" contienen los 562 archivos de ajuste para Ho (660 en el caso de Ullah) obtenidos con 2DLegendre_Fit. En este caso solo resta 
-el caso de graficarlo. Por ello la importancia de anexar estos datos ya que de lo contrario no corre el programa porque es muy especifico
-de los casos, es decir, que solo el codigo "Results.m" es exclusivo para esta invetsigacion en el caso de los estudios tomograficos en 
-Visualization 1 y Visualization 2. Mientras que los codigos "FourierM.m" y "2DLegendre_Fit" son generales y aplicables s multiples casos, 
-solo debemos considerar la iluminacion en la imagen tomografica, ya que no debe tener barridos ni sombras por inclinacion de la iluminacion.
-
+1.- LegendrePol_3D Images    link: https://drive.google.com/drive/folders/13LwL9BO7SX-WcCe-O6R_7SnxoR0IMPlv?usp=sharing
